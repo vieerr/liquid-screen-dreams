@@ -24,7 +24,7 @@ namespace LSD
             _output = new WaveOutEvent();
             _output.Init(_reader);
             _blockMilliseconds = blockMilliseconds;
-            _blockSize = (_reader.WaveFormat.AverageBytesPerSecond * blockMilliseconds) / 2000;
+            _blockSize = (_reader.WaveFormat.AverageBytesPerSecond * blockMilliseconds) / 3000;
             _buffer = new float[_blockSize / sizeof(float)];
             _analyzeThread = new Thread(AnalyzeLoop) { IsBackground = true };
         }

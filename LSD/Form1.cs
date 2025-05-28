@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -34,6 +35,7 @@ namespace LSD
                         if (InvokeRequired)
                             BeginInvoke(new Action(() => _renderer.AddSample(sample)));
                         else
+                            //Trace.WriteLine($"New sample: {sample}");
                             _renderer.AddSample(sample);
                     };
                     _player.Play();

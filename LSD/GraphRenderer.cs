@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -20,35 +21,38 @@ namespace LSD
 
         public void AddSample(float sample)
         {
-            if (_samples.Count >= _maxSamples)
-                _samples.Dequeue();
-            _samples.Enqueue(sample);
-            Render();
+            Trace.WriteLine($"New sample: {sample}");
+            //if (_samples.Count >= _maxSamples)
+            //    _samples.Dequeue();
+            //_samples.Enqueue(sample);
+            Render(sample);
         }
 
-        private void Render()
+        private void Render(float sample)
         {
             int w = _pictureBox.Width;
             int h = _pictureBox.Height;
             var bmp = new Bitmap(w, h);
+            float centerX = w / 2f;
+            float centerY = h / 2f;
+            Pen redBig = new Pen(Color.Red, 7f);
             using (var g = Graphics.FromImage(bmp))
             {
                 g.Clear(Color.Black);
-                if (_samples.Count < 2) { _pictureBox.Image = bmp; return; }
 
-                float max = 0;
-                foreach (var v in _samples) if (v > max) max = v;
-                if (max <= 0) max = 1;
+                float randomSF = 1000f + (float)new Random().NextDouble() * 0.5f; // Random scale factor between 0.5 and 1.0
 
-                PointF[] points = new PointF[_samples.Count];
-                int i = 0;
-                foreach (var v in _samples)
-                {
-                    float x = (float)i / (_maxSamples - 1) * w;
-                    float y = h - (v / max) * h;
-                    points[i++] = new PointF(x, y);
-                }
-                g.DrawLines(Pens.Lime, points);
+
+                g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+                g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBilinear;
+                g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+                g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+                float arcDiameter = sample * randomSF;
+                float arcX = centerX - arcDiameter / 2f;
+                float arcY = centerY - arcDiameter / 2f;
+                g.DrawArc(redBig, arcX, arcY, arcDiameter, arcDiameter, 0, 360);
+                Lissajous.DrawLissajous(g, Pens.White, new Rectangle(-50, -50, w + 100, h + 100), sample * randomSF, sample * randomSF / 2, 200);
+                Lissajous.FillLissajous(g, Brushes.White, new Rectangle(-50, -50, w + 100, h + 100), sample * randomSF/2, sample * randomSF, 200);
             }
             _pictureBox.Image?.Dispose();
             _pictureBox.Image = bmp;
