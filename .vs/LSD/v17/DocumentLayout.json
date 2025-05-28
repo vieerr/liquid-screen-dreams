@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\vier\\source\\repos\\LSD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|C:\\Users\\vier\\source\\repos\\LSD\\lsd\\graphrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|c:\\users\\vier\\source\\repos\\lsd\\lsd\\graphrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\graphrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|c:\\users\\vier\\source\\repos\\lsd\\lsd\\oscilloscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\oscilloscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|c:\\users\\vier\\source\\repos\\lsd\\lsd\\audioanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|C:\\Users\\vier\\source\\repos\\LSD\\lsd\\audioanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\audioanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|C:\\Users\\vier\\source\\repos\\LSD\\lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|C:\\Users\\vier\\source\\repos\\LSD\\lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|c:\\users\\vier\\source\\repos\\lsd\\lsd\\lissajous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\lissajous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|c:\\users\\vier\\source\\repos\\lsd\\lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|C:\\Users\\vier\\source\\repos\\LSD\\lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|C:\\Users\\vier\\source\\repos\\LSD\\lsd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|C:\\Users\\vier\\source\\repos\\LSD\\lsd\\oscilloscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\oscilloscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Lissajous.cs",
+              "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Lissajous.cs",
+              "RelativeDocumentMoniker": "LSD\\Lissajous.cs",
+              "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Lissajous.cs",
+              "RelativeToolTip": "LSD\\Lissajous.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T23:03:02.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Oscilloscope.cs",
               "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Oscilloscope.cs",
               "RelativeDocumentMoniker": "LSD\\Oscilloscope.cs",
@@ -55,39 +68,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Lissajous.cs",
-              "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Lissajous.cs",
-              "RelativeDocumentMoniker": "LSD\\Lissajous.cs",
-              "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Lissajous.cs",
-              "RelativeToolTip": "LSD\\Lissajous.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBYAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:42:36.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Form1.cs",
               "RelativeDocumentMoniker": "LSD\\Form1.cs",
               "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Form1.cs",
               "RelativeToolTip": "LSD\\Form1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T20:27:33.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Program.cs",
               "RelativeDocumentMoniker": "LSD\\Program.cs",
               "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Program.cs",
               "RelativeToolTip": "LSD\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T19:32:57.41Z",
               "EditorCaption": ""
@@ -100,27 +100,27 @@
               "RelativeDocumentMoniker": "LSD\\GraphRenderer.cs",
               "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\GraphRenderer.cs",
               "RelativeToolTip": "LSD\\GraphRenderer.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAmwDYAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T16:57:14.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AudioAnalyzer.cs",
               "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\AudioAnalyzer.cs",
               "RelativeDocumentMoniker": "LSD\\AudioAnalyzer.cs",
               "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\AudioAnalyzer.cs",
               "RelativeToolTip": "LSD\\AudioAnalyzer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAA5wDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T12:38:39.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Form1.cs",
               "RelativeDocumentMoniker": "LSD\\Form1.cs",
