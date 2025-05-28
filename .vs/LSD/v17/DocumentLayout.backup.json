@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vier\\source\\repos\\LSD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|c:\\users\\vier\\source\\repos\\lsd\\lsd\\audioanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\audioanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|C:\\Users\\vier\\source\\repos\\LSD\\lsd\\graphrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\graphrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|c:\\users\\vier\\source\\repos\\lsd\\lsd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|C:\\Users\\vier\\source\\repos\\LSD\\lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{230AC14E-5A27-4D95-86E3-AEC9B637B2B1}|LSD\\LSD.csproj|solutionrelative:lsd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Program.cs",
+              "RelativeDocumentMoniker": "LSD\\Program.cs",
+              "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Program.cs",
+              "RelativeToolTip": "LSD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:32:57.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GraphRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\GraphRenderer.cs",
+              "RelativeDocumentMoniker": "LSD\\GraphRenderer.cs",
+              "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\GraphRenderer.cs",
+              "RelativeToolTip": "LSD\\GraphRenderer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowCgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:57:14.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AudioAnalyzer.cs",
+              "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\AudioAnalyzer.cs",
+              "RelativeDocumentMoniker": "LSD\\AudioAnalyzer.cs",
+              "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\AudioAnalyzer.cs",
+              "RelativeToolTip": "LSD\\AudioAnalyzer.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAtwB8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:38:39.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Form1.cs",
+              "RelativeDocumentMoniker": "LSD\\Form1.cs",
+              "ToolTip": "C:\\Users\\vier\\source\\repos\\LSD\\LSD\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "LSD\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:55:43.08Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
