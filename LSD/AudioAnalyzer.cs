@@ -10,6 +10,7 @@ namespace LSD
     {
         private readonly WaveOutEvent _output;
         private readonly AudioFileReader _reader;
+        private readonly AudioFileReader _auxReader;
         private readonly int _blockMilliseconds;
         private readonly float[] _buffer;
         private readonly int _blockSize;
@@ -21,10 +22,11 @@ namespace LSD
         public AudioAnalyzerPlayer(string filePath, int blockMilliseconds = 50)
         {
             _reader = new AudioFileReader(filePath);
+            _auxReader = new AudioFileReader(filePath);
             _output = new WaveOutEvent();
             _output.Init(_reader);
             _blockMilliseconds = blockMilliseconds;
-            _blockSize = (_reader.WaveFormat.AverageBytesPerSecond * blockMilliseconds) / 3000;
+            _blockSize = (_auxReader.WaveFormat.AverageBytesPerSecond * blockMilliseconds) / 3000;
             _buffer = new float[_blockSize / sizeof(float)];
             _analyzeThread = new Thread(AnalyzeLoop) { IsBackground = true };
         }
@@ -82,6 +84,8 @@ namespace LSD
 
         private void AnalyzeLoop()
         {
+            float smoothedRms = 0;
+
             while (_running)
             {
                 int read = _reader.Read(_buffer, 0, _buffer.Length);
@@ -93,8 +97,8 @@ namespace LSD
                     sumSq += _buffer[i] * _buffer[i];
 
                 float rms = (float)Math.Sqrt(sumSq / samples);
-                OnNewRmsSample?.Invoke(rms);
-
+                smoothedRms = 0.3f * rms + 0.7f * smoothedRms;
+                OnNewRmsSample?.Invoke(smoothedRms);
                 Thread.Sleep(_blockMilliseconds);
             }
             _running = false;
