@@ -9,26 +9,25 @@ namespace LSD
     public class GraphRenderer
     {
         private readonly PictureBox _pictureBox;
-        private readonly Queue<float> _samples;
-        private readonly int _maxSamples;
 
-
-        public GraphRenderer(PictureBox pictureBox, int maxSamples = 200)
+        public GraphRenderer(PictureBox pictureBox)
         {
             _pictureBox = pictureBox;
-            _maxSamples = maxSamples;
-            _samples = new Queue<float>(maxSamples);
         }
 
         public void AddSample(float sample)
         {
-            Trace.WriteLine($"New sample: {sample}");
-            //if (_samples.Count >= _maxSamples)
-            //    _samples.Dequeue();
-            //_samples.Enqueue(sample);
             Render(sample);
         }
 
+        public void Clear()
+        {
+            if (_pictureBox.Image != null)
+            {
+                _pictureBox.Image.Dispose();
+                _pictureBox.Image = null;
+            }
+        }
         private void Render(float sample)
         {
 
@@ -75,7 +74,7 @@ namespace LSD
                     g.Clear(Color.Black);
                     g.DrawEllipse(greenBig, w / 2 - sample * 2000, h / 2 - sample * 2000, sample * 4000, sample * 4000);
                     g.DrawEllipse(shyRed, w / 2 - sample * 1750, h / 2 - sample * 1750, sample * 3500, sample * 3500);
-                    Lissajous.DrawLissajous(g, bigBlack, new Rectangle(-50, -50, w + 100, h + 100), sample * randomSF / 3, sample * randomSF / 4, 100);
+                    //Lissajous.DrawLissajous(g, bigBlack, new Rectangle(-50, -50, w + 100, h + 100), sample * randomSF / 3, sample * randomSF / 4, 100);
                     Lissajous.FillLissajous(g, Brushes.Black, new Rectangle(-50, -50, w + 100, h + 100), sample * randomSF / 3, sample * randomSF / 4, 100);
                 }
                 g.DrawEllipse(violetBig, w / 2 - sample * 250, h / 2 - sample * 250, sample * 500, sample * 500);
